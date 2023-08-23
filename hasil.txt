@@ -1,0 +1,65 @@
+233 epochs completed in 190.939 hours.
+Optimizer stripped from runs\train\exp19\weights\last.pt, 14.5MB
+Optimizer stripped from runs\train\exp19\weights\best.pt, 14.5MB
+
+Validating runs\train\exp19\weights\best.pt...
+Fusing layers... 
+Model summary: 157 layers, 7144975 parameters, 0 gradients, 16.2 GFLOPs
+                 Class     Images  Instances          P          R      mAP50   mAP50-95:  36%|███▋      | 455/1250 [00:14<00:27, 28.47it/s]libpng warning: iCCP: known incorrect sRGB profile
+                 Class     Images  Instances          P          R      mAP50   mAP50-95:  37%|███▋      | 466/1250 [00:15<00:28, 27.13it/s]libpng warning: iCCP: known incorrect sRGB profile
+                 Class     Images  Instances          P          R      mAP50   mAP50-95:  49%|████▉     | 611/1250 [00:24<01:21,  7.84it/s]libpng warning: iCCP: known incorrect sRGB profile
+                 Class     Images  Instances          P          R      mAP50   mAP50-95:  68%|██████▊   | 844/1250 [00:33<00:15, 25.96it/s]libpng warning: iCCP: known incorrect sRGB profile
+                 Class     Images  Instances          P          R      mAP50   mAP50-95:  84%|████████▎ | 1044/1250 [00:41<00:08, 24.65it/s]libpng warning: iCCP: known incorrect sRGB profile
+                 Class     Images  Instances          P          R      mAP50   mAP50-95:  87%|████████▋ | 1089/1250 [00:43<00:06, 25.59it/s]libpng warning: iCCP: known incorrect sRGB profile
+                 Class     Images  Instances          P          R      mAP50   mAP50-95: 100%|██████████| 1250/1250 [00:50<00:00, 24.71it/s]
+                   all       2500       3859      0.844      0.806      0.849      0.725
+            apel_segar       2500         56      0.985      0.875      0.894       0.87
+            apel_busuk       2500         50      0.437          1      0.991      0.928
+           jeruk_segar       2500         54      0.615      0.926      0.912      0.834
+           jeruk_busuk       2500         50      0.693          1      0.956      0.826
+           lemon_segar       2500         65      0.955      0.954      0.964      0.924
+           lemon_busuk       2500         50      0.916          1      0.995      0.957
+            naga_busuk       2500         66      0.662      0.636      0.708      0.341
+            pear_segar       2500         50      0.969          1      0.995      0.954
+            pear_busuk       2500         50      0.966          1      0.995      0.907
+           nanas_segar       2500         75      0.983      0.759      0.893      0.831
+           nanas_busuk       2500         73      0.651      0.485       0.63      0.445
+            ayam_segar       2500        171      0.722      0.485      0.609      0.418
+            ayam_busuk       2500         58      0.929      0.897      0.936      0.823
+            sapi_segar       2500        115      0.751       0.47      0.612      0.508
+            sapi_busuk       2500         50      0.966          1      0.995      0.848
+           bayam_segar       2500        101      0.753      0.484      0.598      0.455
+           bayam_busuk       2500         50      0.946          1      0.995      0.938
+         brokoli_segar       2500        141      0.523      0.458      0.441      0.325
+         brokoli_busuk       2500         56      0.876      0.754      0.829      0.599
+          buncis_segar       2500         57      0.915      0.719      0.794      0.623
+          buncis_busuk       2500         68      0.983      0.735      0.865      0.566
+          jagung_segar       2500         53          1      0.891      0.995      0.892
+          jagung_busuk       2500         50      0.886          1      0.995      0.823
+           jamur_segar       2500        142      0.708      0.408      0.517      0.339
+           jamur_busuk       2500         49      0.963          1      0.995      0.672
+   kacangpanjang_segar       2500         82      0.341      0.622      0.485      0.394
+   kacangpanjang_busuk       2500         50      0.984          1      0.995      0.974
+        kangkung_segar       2500         65      0.873      0.662      0.752       0.58
+        kangkung_busuk       2500         50      0.982          1      0.995       0.89
+         kentang_segar       2500        215      0.987       0.35      0.719       0.58
+         kentang_busuk       2500        130      0.785      0.646      0.746      0.646
+           kubis_segar       2500         51      0.818          1       0.89      0.809
+           kubis_busuk       2500         50      0.862          1      0.995      0.946
+        labusiam_segar       2500        179      0.915       0.52      0.681       0.54
+        labusiam_busuk       2500        103      0.908          1      0.994      0.945
+       sawihijau_segar       2500         83      0.881      0.711      0.805      0.633
+       sawihijau_busuk       2500         50      0.968          1      0.995      0.994
+       sawiputih_segar       2500         74      0.895      0.808      0.893      0.779
+       sawiputih_busuk       2500         50      0.983          1      0.995      0.991
+            tahu_segar       2500         80      0.626      0.675       0.65      0.467
+            tahu_busuk       2500        100      0.967       0.89       0.98      0.921
+           tauge_segar       2500         55      0.908      0.899      0.929      0.795
+           tauge_busuk       2500         50      0.983          1      0.995       0.91
+           tempe_segar       2500        112      0.789      0.589      0.683      0.561
+           tempe_busuk       2500         50      0.967          1      0.995      0.989
+          terong_segar       2500        156      0.777      0.731      0.772      0.575
+          terong_busuk       2500         89       0.66      0.966      0.922      0.701
+          wortel_segar       2500         60        0.9       0.75      0.832      0.703
+          wortel_busuk       2500         75      0.837      0.752      0.817      0.564
+Results saved to runs\train\exp19

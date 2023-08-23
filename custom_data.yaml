@@ -1,0 +1,72 @@
+# YOLOv5 🚀 by Ultralytics, GPL-3.0 license
+# COCO128 dataset https://www.kaggle.com/ultralytics/coco128 (first 128 images from COCO train2017) by Ultralytics
+# Example usage: python train.py --data coco128.yaml
+# parent
+# ├── yolov5
+# └── datasets
+#     └── coco128  ← downloads here (7 MB)
+
+
+# Train/val/test sets as 1) dir: path/to/imgs, 2) file: path/to/imgs.txt, or 3) list: [path/to/imgs1, path/to/imgs2, ..]
+path: ../drive/MyDrive/Proyek Akhir/Dataset/ # dataset root dir
+train: ../train_data/images/train/  # train images (relative to 'path') 128 images
+val: ../train_data/images/val/  # val images (relative to 'path') 128 images
+test: ../train_data/images/test/# test images (optional)
+
+# Classes
+names:
+  0: apel_segar
+  1: apel_busuk
+  2: jeruk_segar
+  3: jeruk_busuk
+  4: lemon_segar
+  5: lemon_busuk
+  6: naga_segar
+  7: naga_busuk
+  8: pear_segar
+  9: pear_busuk
+  10: nanas_segar
+  11: nanas_busuk
+  12: ayam_segar
+  13: ayam_busuk
+  14: sapi_segar
+  15: sapi_busuk
+  16: bayam_segar
+  17: bayam_busuk
+  18: brokoli_segar
+  19: brokoli_busuk
+  20: buncis_segar
+  21: buncis_busuk
+  22: jagung_segar
+  23: jagung_busuk
+  24: jamur_segar
+  25: jamur_busuk
+  26: kacangpanjang_segar
+  27: kacangpanjang_busuk
+  28: kangkung_segar
+  29: kangkung_busuk
+  30: kentang_segar
+  31: kentang_busuk
+  32: kubis_segar
+  33: kubis_busuk
+  34: labusiam_segar
+  35: labusiam_busuk
+  36: sawihijau_segar
+  37: sawihijau_busuk
+  38: sawiputih_segar
+  39: sawiputih_busuk
+  40: tahu_segar
+  41: tahu_busuk
+  42: tauge_segar
+  43: tauge_busuk
+  44: tempe_segar
+  45: tempe_busuk
+  46: terong_segar
+  47: terong_busuk
+  48: wortel_segar
+  49: wortel_busuk
+  
+
+
+# Download script/URL (optional)
+download: https://ultralytics.com/assets/coco128.zip
